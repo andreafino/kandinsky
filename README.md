@@ -1,55 +1,42 @@
 ##### Table of Contents
 
-Codeunit "RAS002 Production Mgt"
-================================
+# Codeunit "RAS002 Production Mgt"
 
 ID 50218
 
-Methods
--------
+## Methods
 
 ### CheckNotReservedProductionLineFromSalesDoc
 
-    procedure CheckNotReservedProductionLineFromSalesDoc(SalesHeader: __MissingTypeSymbol__)
+```
+procedure CheckNotReservedProductionLineFromSalesDoc(SalesHeader: __MissingTypeSymbol__)
+```
 
 #### Parameters
 
-Name
-
-Type
-
-Description
-
-SalesHeader
-
-\_\_MissingTypeSymbol\_\_
+| Name | Type | Description |
+| --- | --- | --- |
+| SalesHeader | \_\_MissingTypeSymbol\_\_ |     |
 
 ### CheckAvailabilityComponents
 
-    procedure CheckAvailabilityComponents(ProductionOrder: __MissingTypeSymbol__): Boolean
+```
+procedure CheckAvailabilityComponents(ProductionOrder: __MissingTypeSymbol__): Boolean
+```
 
 #### Parameters
 
-Name
-
-Type
-
-Description
-
-ProductionOrder
-
-\_\_MissingTypeSymbol\_\_
+| Name | Type | Description |
+| --- | --- | --- |
+| ProductionOrder | \_\_MissingTypeSymbol\_\_ |     |
 
 #### Returns
 
-Type
+| Type | Description |
+| --- | --- |
+| Boolean |     |
 
-Description
-
-Boolean
-
-See also
---------
+## See also
 
 *   [Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)
     
